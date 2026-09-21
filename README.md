@@ -85,3 +85,4 @@ OUTPUT_DIR/
 - The export runs with **8 parallel workers**, each holding one DB connection (9 total including the main connection used for discovery).
 - Row count mismatches in validation are expected on a live database (rows can be inserted between Phase 1 and Phase 3).
 commit A for test/mergecommit-detect
+commit B for test/mergecommit-detect
